@@ -1,11 +1,11 @@
-class BMI {
-    constructor(height, weight){
+class BMI {//class
+    constructor(height, weight){ //constuctor
         this.height = height;
         this.weight = weight;
     }
 
-    calculateBMI(){
-        let bmi = this.weight/(this.height**2);
+    calculateBMI(){ // method
+        let bmi = this.weight/(this.height**2); // formula for bmi
         return bmi; 
     }
 

@@ -1,5 +1,5 @@
-class Vehicle{
-    constructor(make, model, year){
+class Vehicle{ //parent class
+    constructor(make, model, year){ //constructor
         this.make = make;
         this.model = model;
         this.year = year;
@@ -11,7 +11,7 @@ class Vehicle{
 
 }
 
-class Cars extends Vehicle{
+class Cars extends Vehicle{ //child class
     constructor(make,model,year,doors){
         super(make,model,year);
         this.doors = doors;
